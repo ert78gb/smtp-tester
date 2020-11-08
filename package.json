@@ -1,0 +1,27 @@
+{
+  "name": "smtp-tester",
+  "version": "0.0.0",
+  "description": "Simple email sender script to test MTA and client connectivity with DKIM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SMTP",
+    "MTA",
+    "email",
+    "test",
+    "DKIM"
+  ],
+  "author": "ert78gb@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ert78gb/smtp-tester.git"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemailer": "^6.4.15"
+  }
+}
